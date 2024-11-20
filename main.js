@@ -12,7 +12,7 @@ function buttonClicked() {
     // Trigger reflow to restart the animation
     progress.offsetHeight; // This line forces a reflow
 
-    progress.style.animation = 'progress 2s linear';
+    progress.style.animation = 'progress 10s linear';
     rollEnabled = false;
 
     progress.addEventListener('animationend', showResult, { once: true });

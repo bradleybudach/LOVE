@@ -48,7 +48,13 @@ html, body {
 }
 
 .progress {
-    background-color: blue;
+    background: repeating-linear-gradient(
+        45deg,
+        #e66465,
+        #e66465 25px,
+        #6b2929 25px,
+        #6b2929 50px
+      );
     width: 0%;
     height: 100%;
     position: absolute;
